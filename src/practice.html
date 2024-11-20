@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        let arr = [
+            {name:"mobile 10",brand:"Samsung",price:340},
+            {name:"mobile 10",brand:"Samsung",price:340},
+            {name:"mobile 10",brand:"Motorolla",price:340},
+            {name:"mobile 10",brand:"Motorolla",price:340},
+            {name:"mobile 10",brand:"Mi",price:340}
+        ]
+
+        //[ {name:"mobile 10",brand:"Samsung",price:340},{name:"mobile 10",brand:"Samsung",price:340},]
+        let filteredArr = arr.filter((ele)=>ele.brand.includes('s'))
+        console.log(filteredArr)
+
+        // let text = "hello how are you";
+        // //includes
+        // if(text.includes('z')){
+        //     console.log("yes")
+        // }
+        // else{
+        //     console.log("no")
+        // }
+
+
+        // let text = "hello how are you";
+        
+        // if(text.includes('')){
+        //     console.log(true)
+        // }
+        // else{
+        //     console.log(false)
+        // }
+
+
+
+        // let arr2 = [8,3,7,2,1,5,4 ,6]   //[  1,2,3,4,5,9,8,7,6]
+
+        // let sortedArr = arr2.sort((a,b)=>a - b);
+        // console.log(sortedArr)
+        // let firstHalf = sortedArr.slice(0,(sortedArr.length/2));
+        // console.log(firstHalf)
+        // let secondHalf = sortedArr.slice(sortedArr.length/2 ,sortedArr.length).reverse();
+        
+        // let ans  = firstHalf.concat(secondHalf)
+        // console.log(ans)
+
+
+        // let x = 'abc'
+        //  age = 89;
+
+        //  console.log(delete age)  //here age is working like global variable
+        //  console.log(delete x)   // here x is not global variable
+
+    //    let  obj = {
+    //     name:"abc",
+    //     age:45
+    //     }
+
+    //     delete obj.age
+
+    //     console.log(obj)
+
+    //  a =10
+    // console.log(window) // global object
+
+        
+        
+    let arr4 = [ 8,3,9,1]
+    let ans = [...arr4].reverse()
+    
+    console.log(arr4===ans)  //
+        
+
+
+
+
+
+
+
+
+
+        
+
+    </script>
+</body>
+</html>
